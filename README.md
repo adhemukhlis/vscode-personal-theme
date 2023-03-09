@@ -9,7 +9,7 @@
       ```
       code /usr/share/code/resources/app/extensions/theme-defaults/package.json
       ```
- 2. add theme property
+ 2. add personal theme property
     ``` diff
     {
     ...
@@ -33,12 +33,10 @@
     ...
     }
     ```
-3. create/add `custom.json` to 
+3. open vscode command with `ctrl` + `shift` + `p` hotkey in and select `Generate Color Theme From Current Settings`, it will generate theme with json format, then copy paste it to `custom.json` file from step 4
+4. create/add [custom.json](custom.json) to 
     - mac : `/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/theme-defaults/themes`
     - linux : `/usr/share/code/resources/app/extensions/theme-defaults/themes`
-4. open command with `ctrl` + `shift` + `p` hotkey and select `Generate Color Theme From Current Settings`, it will generate theme with json format, then copy paste it to `custom.json` file from step 3
+
 5. close and reopen vscode
 6. open vscode theme settings and find `Personal Theme`
- 
- 
- 
